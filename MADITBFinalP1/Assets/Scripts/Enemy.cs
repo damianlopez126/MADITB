@@ -40,10 +40,10 @@ public class Enemy : MonoBehaviour
 
     private void GetTarget()
     {
-        /*if (FindGameObjectWithTag("Player"))
+        if (GameObject.FindGameObjectWithTag("Player"))
         {
             target = GameObject.FindGameObjectWithTag("Player").transform;
-        }*/
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
